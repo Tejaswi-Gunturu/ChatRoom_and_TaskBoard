@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real-Time Chat & Task Board</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Real-Time Chat & Task Board</h1>
+    </header>
+    <main>
+        <section id="chat">
+            <h2>Chat Room</h2>
+            <hr>
+            <div class="chat-message">
+                <img src="user-avatar_1.png" alt="User Avatar" class="user-avatar">
+                <span>Username:</span>
+                <p>Hello, how are you?</p>
+            </div>
+            <div class="chat-message">
+                <img src="user-avatar_2.png" alt="User Avatar" class="user-avatar">
+                <span>AnotherUser:</span>
+                <p>I'm doing well, thank you!</p>
+            </div>
+            <form id="chat-form">
+                <!-- <i class="fa-solid fa-link"></i> -->
+                <input type="text" id="chat-input" placeholder="Type your message">
+                <button type="submit" id="chat-send-button">Send</button>
+            </form>
+        </section>
+        <section id="task-board">
+            <h2>Task Board</h2>
+            <section id="task-category">
+                <div class="column" id="todo">
+                    <h3>To Do</h3>
+                    <div class="tasks">
+                        Check Mails
+                    </div>
+                    <div class="tasks">
+                        Work on new project idea
+                    </div>
+                </div>
+                <div class="column" id="in-progress">
+                    <h3>In Progress</h3>
+                    <div class="tasks">
+                        Pay internet Bill
+                    </div>
+                    <div class="tasks">
+                        Check team status
+                    </div>
+                </div>
+                <div class="column" id="done">
+                    <h3>Done</h3>
+                    <div class="tasks">
+                        Meeting with client
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <!-- <h2>Task Board</h2>
+            <div class="task-card">
+                <h3>Task 1</h3>
+                <p>Description: This is task 1.</p>
+            </div>
+            <div class="task-card">
+                <h3>Task 2</h3>
+                <p>Description: This is task 2.</p>
+            </div>
+            <form id="task-form">
+                <input type="text" id="task-input" placeholder="Enter task name">
+                <button type="submit" id="task-add-button">Add Task</button>
+            </form> -->
+            
+        </section>
+    </main>
+    <footer>
+        <!-- Add footer content here -->
+    </footer>
+</body>
+</html>
